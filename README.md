@@ -10,3 +10,8 @@ Here is the dataset used for this project: [Multi Color and Shapes Dataset](http
 1. Download the dataset.
 2. In the file main.py, adjust the path of the dataset. In the file model.py, adjust the path where the model will be saved. This will create data pairs and then model will be trained.
 3. Run test.py to test model and display a 3d scatter plot. Adjust the saved model path. 
+
+### Output
+
+<img align="center" alt="wallpaper" height= "600px" src="./scatter_color.png?raw=True" />
+<br/>

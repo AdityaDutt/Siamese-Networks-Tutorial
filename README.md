@@ -1,6 +1,6 @@
 # Siamese-Networks-Tutorial
 
-<img align="center" alt="siamnet" height= "200px" src="./siamese_net.png?raw=True" />
+<img align="center" alt="siamnet" height= "300px" src="./siamese_net.png?raw=True" />
 
 ### This a basic tutorial of simaese networks. Here is an article written on Medium: #
 
@@ -15,6 +15,6 @@ Here is the dataset used for this project: [Multi Color and Shapes Dataset](http
 
 ### Output
 
-<img align="center" alt="scatter" height= "400px" src="./scatter_color.png?raw=True" />
+<img align="center" alt="scatter" height= "300px" src="./scatter_color.png?raw=True" />
 <br/>
-<img align="center" alt="confmat" height= "400px" src="./conf_mat.png?raw=True" />
+<img align="center" alt="confmat" height= "300px" src="./conf_mat.png?raw=True" />

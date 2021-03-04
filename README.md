@@ -15,8 +15,9 @@ Here is the dataset used for this project: [Multi Color and Shapes Dataset](http
 
 ### Output
 
-<img align="center" alt="gif" height= "500px" src="./color.gif?raw=True" />
-<br/>
-<img align="center" alt="scatter" height= "300px" src="./scatter_color.png?raw=True" />
+Top image is 3d plot of features.
+Bottom one is confusion matrix of same shape but different color.
+ 
+<img align="center" alt="gif" height= "300px" src="./color.gif?raw=True" />
 <br/>
 <img align="center" alt="confmat" height= "500px" src="./conf_mat.png?raw=True" />

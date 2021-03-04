@@ -13,5 +13,6 @@ Here is the dataset used for this project: [Multi Color and Shapes Dataset](http
 
 ### Output
 
-<img align="center" alt="wallpaper" height= "600px" src="./scatter_color.png?raw=True" />
+<img align="center" alt="scatter" height= "400px" src="./scatter_color.png?raw=True" />
 <br/>
+<img align="center" alt="confmat" height= "400px" src="./conf_mat.png?raw=True" />

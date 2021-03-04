@@ -19,8 +19,7 @@ Here is the dataset used for this project: [Multi Color and Shapes Dataset](http
  
 <img align="center" alt="gif" height= "300px" src="./color.gif?raw=True" />
 <br/>
-<br/>
-
+<u/>
 
 ```Confusion matrix of same shape but different color```
 

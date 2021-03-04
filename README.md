@@ -2,7 +2,7 @@
 
 <img align="center" alt="siamnet" height= "300px" src="./siamese_net.png?raw=True" />
 
-### This a basic tutorial of simaese networks. Here is an article written on Medium: #
+### This a basic tutorial of siamese networks. Here is an article written on Medium: #
 
 Here is the dataset used for this project: [Multi Color and Shapes Dataset](https://github.com/AdityaDutt/MultiColor-Shapes-Database)
 

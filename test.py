@@ -1,5 +1,5 @@
 from mpl_toolkits.mplot3d import Axes3D
-import os, sys, cv2, matplotlib.pyplot as plt, numpy as np
+import os, sys, cv2, matplotlib.pyplot as plt, numpy as np, pickle
 import sklearn, pandas as pd, seaborn as sn
 from keras.models import Model, load_model, Sequential
 from keras import backend as K
@@ -11,6 +11,12 @@ warnings.filterwarnings('ignore')
 
 model = load_model(os.getcwd()+"/color_encoder.h5")
 siamese_model = load_model(os.getcwd()+"/color_siamese_model.h5")
+
+
+# Load test data
+f = open(os.getcwd()+"/test_images.pkl", 'rb')
+test_red_im, test_blue_im, test_green_im = pickle.load(f)
+f.close()
 
 
 names = list(test_red_im) + list(test_blue_im) + list(test_green_im)# + list(test_cyan_im) #+ list(test_yellow_im)
@@ -39,8 +45,8 @@ y += [colors[1] for i in range(num)]
 y += [colors[2] for i in range(num)]
 
 feat1 = pred[:,0]
-feat2 = pred[:,2]
-feat3 = pred[:,1]
+feat2 = pred[:,1]
+feat3 = pred[:,2]
 
 
 fig = plt.figure()

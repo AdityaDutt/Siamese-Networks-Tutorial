@@ -24,7 +24,7 @@ from model import train_color_encoder
 
 # Prepare data for different shapes but same colors
 
-dir = os.getcwd() + "/shapes/"
+dir = "/Users/adityadutt/Documents/Research2021/shapes/"
 
 images = []
 y_col = []
@@ -116,4 +116,10 @@ color_X2 = 1 - color_X2/255
 
 print("Color data : ", color_X1.shape, color_X2.shape, color_y.shape)
 
+# Save test data
+f = open(os.getcwd()+"/test_images.pkl", 'wb')
+pickle.dump([test_red_im, test_blue_im, test_green_im], f)
+f.close()
+
+# train model
 train_color_encoder(color_X1, color_X2, color_y)

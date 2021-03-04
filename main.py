@@ -24,7 +24,7 @@ from model import train_color_encoder
 
 # Prepare data for different shapes but same colors
 
-dir = "/Users/adityadutt/Documents/Research2021/shapes/"
+dir = os.getcwd() + "/shapes/"
 
 images = []
 y_col = []

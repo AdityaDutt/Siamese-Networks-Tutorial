@@ -19,12 +19,10 @@ Here is the dataset used for this project: [Multi Color and Shapes Dataset](http
 ### Output
 
 ```3d plot of features```
- 
 <img align="center" alt="gif" height= "300px" src="./color.gif?raw=True" />
 <br/>
 
 ---
 
 ```Confusion matrix of same shape but different color```
-
 <img align="center" alt="confmat" height= "500px" src="./conf_mat.png?raw=True" />
